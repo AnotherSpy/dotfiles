@@ -1,6 +1,4 @@
 !#/bin/bash
 
-sudo pacman -S git stow
-git clone https://github.com/AnotherSpy/dotfiles.git
-cd dotfiles
+sudo pacman -Syu git stow ttf-jetbrains-mono-nerd
 stow .
